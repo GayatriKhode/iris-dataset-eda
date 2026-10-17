@@ -1,0 +1,33 @@
+Iris Dataset EDA — Observations
+================================
+
+Dataset overview
+- Rows: 150
+- Numerical measurement features: 4
+- Species: setosa, versicolor, virginica
+- Missing values in the analysis DataFrame: 0
+
+Key observations
+1. Petal length and petal width have a strong positive correlation
+   (Pearson correlation: 0.963).
+2. Setosa is generally well separated from the other species by petal
+   measurements, because its petals are notably smaller.
+3. Versicolor and virginica overlap more than setosa in some feature pairs,
+   but petal length and petal width help distinguish them.
+4. Sepal measurements show useful variation, but they tend to separate the
+   three species less clearly than petal measurements.
+5. Mean, median, and standard deviation summarize each feature's center and
+   spread. Compare summary_statistics.csv and species_mean_measurements.csv
+   for overall and species-level measurements.
+
+Files generated
+- iris_dataset.csv
+- summary_statistics.csv
+- species_mean_measurements.csv
+- correlation_matrix.csv
+- iris_pairplot.png
+- correlation_heatmap.png
+- observations.txt
+
+Note: These observations describe common patterns in the classic Iris dataset.
+Review the saved plots and tables when writing your final project report.
